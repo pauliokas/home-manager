@@ -72,4 +72,15 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+
+  home.preferXdgDirectories = true;
+
+  imports = [
+    ./modules/aws/module.nix
+    ./modules/direnv/module.nix
+    ./modules/fzf/module.nix
+    ./modules/git/module.nix
+    ./modules/neovim/module.nix
+    ./modules/zsh/module.nix
+  ];
 }
