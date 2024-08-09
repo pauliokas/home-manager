@@ -478,5 +478,3 @@ tags
 # Support for Project snippet scope
 
 # End of https://www.toptal.com/developers/gitignore/api/osx,vim,node,linux,python,intellij+all,visualstudiocode,direnv
-
-.devenv/

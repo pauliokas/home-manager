@@ -2,19 +2,19 @@
   "entries": {
     "cask": {
       "firefox": {
-        "version": "127.0.1",
+        "version": "129.0",
         "options": {
           "full_name": "firefox"
         }
       },
       "visual-studio-code": {
-        "version": "1.90.2",
+        "version": "1.92.1",
         "options": {
           "full_name": "visual-studio-code"
         }
       },
       "1password": {
-        "version": "8.10.34",
+        "version": "8.10.39",
         "options": {
           "full_name": "1password"
         }
@@ -26,19 +26,19 @@
         }
       },
       "rectangle": {
-        "version": "0.80",
+        "version": "0.81",
         "options": {
           "full_name": "rectangle"
         }
       },
       "signal": {
-        "version": "7.13.0",
+        "version": "7.19.0",
         "options": {
           "full_name": "signal"
         }
       },
       "slack": {
-        "version": "4.39.88",
+        "version": "4.39.95",
         "options": {
           "full_name": "slack"
         }
@@ -50,43 +50,43 @@
         }
       },
       "pycharm-ce": {
-        "version": "2024.1.3,241.17890.14",
+        "version": "2024.1.5,241.18968.29",
         "options": {
           "full_name": "pycharm-ce"
         }
       },
       "postman": {
-        "version": "11.2.0",
+        "version": "11.7.0",
         "options": {
           "full_name": "postman"
         }
       },
       "readdle-spark": {
-        "version": "3.16.5.77201",
+        "version": "3.16.9.81061",
         "options": {
           "full_name": "readdle-spark"
         }
       },
       "calibre": {
-        "version": "7.12.0",
+        "version": "7.16.0",
         "options": {
           "full_name": "calibre"
         }
       },
       "iterm2": {
-        "version": "3.5.2",
+        "version": "3.5.3",
         "options": {
           "full_name": "iterm2"
         }
       },
       "docker": {
-        "version": "4.31.0,153195",
+        "version": "4.33.0,160616",
         "options": {
           "full_name": "docker"
         }
       },
       "meetingbar": {
-        "version": "4.9.0",
+        "version": "4.10.0",
         "options": {
           "full_name": "meetingbar"
         }
@@ -110,9 +110,21 @@
         }
       },
       "tailscale": {
-        "version": "1.68.1",
+        "version": "1.70.0",
         "options": {
           "full_name": "tailscale"
+        }
+      },
+      "google-chrome": {
+        "version": "127.0.6533.100",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "teamviewer": {
+        "version": "15.55.3",
+        "options": {
+          "full_name": "teamviewer"
         }
       }
     }
@@ -120,7 +132,7 @@
   "system": {
     "macos": {
       "sonoma": {
-        "HOMEBREW_VERSION": "4.3.7",
+        "HOMEBREW_VERSION": "4.3.14",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",

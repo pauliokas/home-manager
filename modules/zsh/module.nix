@@ -8,11 +8,21 @@
     lsd
     bat
     fd
+
+    asdf-vm
+
+    python3
+    poetry
+
+    nodejs
+    yarn
   ];
 
   xdg.configFile."bat/config".text = ''--style="numbers,changes"'';
 
   xdg.configFile."lsd/config.yaml".source = ./lsd-config.yaml;
+
+  xdg.configFile."asdf-vm/.asdfrc".text = ''legacy_version_file = yes'';
 
   home.file.".digrc".text = ''+noall +answer'';
 
@@ -83,6 +93,7 @@
         # { name = toString ./p10k; tags = [ from:local use:p10k-instant-prompt.zsh defer:0 ]; }
         { name = "zsh-users/zsh-autosuggestions"; tags = [ depth:1 ]; }
         { name = "romkatv/powerlevel10k"; tags = [ as:theme depth:1 ]; }
+        # { name = "plugins/asdf"; tags = [ from:oh-my-zsh depth:1 ]; }
         { name = "plugins/docker-compose"; tags = [ from:oh-my-zsh depth:1 ]; }
         { name = "plugins/yarn"; tags = [ from:oh-my-zsh depth:1 ]; }
         { name = toString ./p10k; tags = [ from:local use:p10k.zsh defer:1 ]; }
@@ -96,6 +107,12 @@
 
       PIP_REQUIRE_VIRTUALENV = "true";
       AWS_SDK_LOAD_CONFIG = "1";
+
+      ASDF_DIR = "${pkgs.asdf-vm}/share/asdf-vm";
+      ASDF_CONFIG_FILE = "${config.xdg.configHome}/asdf-vm/.asdfrc";
+      ASDF_DATA_DIR = "${config.xdg.dataHome}/asdf-vm";
+
+      DIRENV_LOG_FORMAT = "";
     };
 
     shellAliases = {
